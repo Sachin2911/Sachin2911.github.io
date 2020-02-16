@@ -1,0 +1,15 @@
+body {
+    margin: auto
+}
+
+{
+	.nav_bar ul li a:hover {
+		text-decoration: none;
+		color: #000000;
+		-moz-transition: background-color 200ms ease-in;
+		-webkit-transition:background-color 200ms ease-in;
+		-ms-transition: background-color 200ms easein;
+		-o-transition: background-color 200ms ease-in;
+		transition: background-color 200ms ease-in;
+		
+	}
